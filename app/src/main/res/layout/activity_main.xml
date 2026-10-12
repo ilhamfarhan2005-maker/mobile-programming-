@@ -38,7 +38,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Tampilkan"
-        android:layout_marginBottom="24dp" />
+        android:layout_marginBottom="16dp" />
 
     <LinearLayout
         android:id="@+id/layoutOutput"
@@ -47,7 +47,8 @@
         android:orientation="vertical"
         android:padding="16dp"
         android:background="#F0F0F0"
-        android:visibility="gone">
+        android:visibility="gone"
+        android:layout_marginBottom="16dp">
 
         <TextView
             android:id="@+id/tvOutputNama"
@@ -65,5 +66,12 @@
             android:textSize="16sp"
             android:textColor="#555555" />
     </LinearLayout>
+
+    <Button
+        android:id="@+id/btnBukaSeragam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Praktek If-Else (Cek Seragam)"
+        android:backgroundTint="#2196F3" />
 
 </LinearLayout>
