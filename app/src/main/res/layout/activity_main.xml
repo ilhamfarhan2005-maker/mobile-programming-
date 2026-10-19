@@ -68,6 +68,14 @@
     </LinearLayout>
 
     <Button
+        android:id="@+id/btnBukaLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buka Halaman Login"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#4CAF50" />
+
+    <Button
         android:id="@+id/btnBukaSeragam"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity() {
         val layoutOutput = findViewById<LinearLayout>(R.id.layoutOutput)
         val tvOutputNama = findViewById<TextView>(R.id.tvOutputNama)
         val tvOutputNim = findViewById<TextView>(R.id.tvOutputNim)
+        val btnBukaLogin = findViewById<Button>(R.id.btnBukaLogin)
         val btnBukaSeragam = findViewById<Button>(R.id.btnBukaSeragam)
 
         btnTampilkan.setOnClickListener {
@@ -31,6 +32,11 @@ class MainActivity : AppCompatActivity() {
                 tvOutputNim.text = "NIM Anda: $nim"
                 layoutOutput.visibility = View.VISIBLE
             }
+        }
+
+        btnBukaLogin.setOnClickListener {
+            val intent = Intent(this, LoginActivity::class.java)
+            startActivity(intent)
         }
 
         btnBukaSeragam.setOnClickListener {

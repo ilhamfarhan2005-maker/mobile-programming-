@@ -24,6 +24,9 @@
         <activity
             android:name=".SeragamActivity"
             android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
 
     </application>
 
